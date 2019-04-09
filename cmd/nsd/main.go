@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/cosmos/cosmos-sdk/x/bank"
+	"github.com/cosmos/cosmos-sdk/tree/develop/client"
+	"github.com/cosmos/cosmos-sdk/tree/develop/codec"
+	"github.com/cosmos/cosmos-sdk/tree/develop/server"
+	"github.com/cosmos/cosmos-sdk/tree/develop/x/auth"
+	"github.com/cosmos/cosmos-sdk/tree/develop/x/bank"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
@@ -22,8 +22,8 @@ import (
 	"github.com/tendermint/tendermint/libs/common"
 	"github.com/tendermint/tendermint/libs/log"
 
-	gaiaInit "github.com/cosmos/cosmos-sdk/cmd/gaia/init"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	gaiaInit "github.com/cosmos/cosmos-sdk/tree/develop/cmd/gaia/init"
+	sdk "github.com/cosmos/cosmos-sdk/tree/develop/types"
 	app "github.com/iNukeLaPeste/nameservice"
 	abci "github.com/tendermint/tendermint/abci/types"
 	cfg "github.com/tendermint/tendermint/config"
