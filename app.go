@@ -12,7 +12,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/staking"
 	"github.com/iNukeLaPeste/nameservice/x/nameservice"
 
-	bam "github.com/cosmos/cosmos-sdk/tree/develop/baseapp"
+	bam "github.com/cosmos/cosmos-sdk/baseapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 	cmn "github.com/tendermint/tendermint/libs/common"
