@@ -1,4 +1,4 @@
-module nameservice
+module github.com/iNukeLaPeste/nameservice
 
 go 1.12
 
